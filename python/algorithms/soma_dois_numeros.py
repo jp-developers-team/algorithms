@@ -54,11 +54,11 @@ while (option == "s"):
         # Se o usuário inserir um valor diferente de ADIÇÃO, SUBTRAÇÃO, MULTIPLICAÇÃO e DIVISÃO
         else:
             # Imprimindo na tela o resultado
-            print('O perador matemático inserido é inválido, por favor tente novamente!\n')
+            print('O operador matemático inserido é inválido, por favor tente novamente!\n')
     # Fim da estrutura condicional, se o usuário escolher "NÃO", o programa será encerrado
     else:
         # Imprimindo na tela o resultado
         print('Você escolheu SAIR!\n')
 
     # Permite o usuário reiniciar automaticamente o LOOP, ou seja, o laço de repetição
-    option = input("Deseja realizar um novo cálculo? \nPressione [s] para SIM \nOu \nPressione [n] para NÃO\n")
+    option = input("Deseja rodar o código novamente? \nPressione [s] para SIM \nOu \nPressione [n] para NÃO\n")
