@@ -18,7 +18,7 @@ while (option == "s"):
         # Imprimindo na tela o resultado
         #print('O primeiro número {} é maior do que o segundo número {}!\n'.format(number1, number2))
         
-        # Setando o valor default para o contador, no caso está começeando com ZERO
+        # Setando o valor default para o contador
         count = 0
 
         # A intereção será decrementada de [100], irá parar quando atingir [0], e será decrementado [1] à cada interação

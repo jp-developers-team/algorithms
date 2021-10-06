@@ -1,8 +1,7 @@
 # Algorítmo...
-# Calculando o valor da área
-# Depois calculando o valor do perímetro
-# Será informado o valor do lado de um quadrado e logo após, será calculado o valor da área e o valor do perímetro
-# Objetivo é calcular uma expressão muito usada no dia a dia de muitos profissionais, [Lado, Área e Perímetro], além, do [while] que é uma estrutura contendo laço de repetição
+# Calculando o fatorial de um valor fornecido pelo usuário
+# Será informado o valor fatorial
+# Objetivo é calcular uma expressão muito usada no dia a dia de muitos profissionais, [fatorial], além, do [while] que é uma estrutura contendo laço de repetição
 
 # Atribuindo o valor default
 option = "s"
@@ -14,10 +13,26 @@ while (option == "s"):
     if (option == "s"):
 
         # Tipando as variáveis para o tipo número inteiro
-        lado = int(input("Digite o valor corresondente ao lado, \nInsira um número INTEIRO\n"))
+        n = int(input("Digite um valor qualquer, \nInsira um número INTEIRO\n"))
+
+         # Setando o valor default para o resultado e contador
+        result = 1
+        count = 1
 
         # Exibindo o resultado na tela
-        print('O valor correspondente ao perímetro é {} e o valor corresondente a área é {}!\n'.format((lado*4), (lado*lado)))
+        print('O fatorial correspondente de {} é\n'.format(n))
+
+        # Enquanto [count] for menor ou igual ao valor [n] inserido pelo usuário
+        while (count <= n):
+
+            # result = result * count
+            result *= count
+
+            # coutn = count + 1
+            count += 1
+        
+            # Exibindo o resultado na tela
+            print('{}\n'.format(result))
 
     # Fim da estrutura condicional, se o usuário escolher "NÃO", o programa será encerrado
     else:

@@ -12,7 +12,7 @@ while (option == "s"):
     # Estrutura condicional, se o usuário escolher "SIM", vai ser dado o início do programa
     if (option == "s"):
                 
-        # Setando o valor default para o contador, no caso está começeando com ZERO
+        # Setando o valor default para o contador
         count = 0
 
         # A intereção será incrementada de [0], irá parar quando atingir [100], e será incrementado [1] à cada interação

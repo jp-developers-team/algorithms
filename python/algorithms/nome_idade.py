@@ -15,7 +15,7 @@ while (option == "s"):
 
         # Tipando as variáveis para o tipo "string" e "integer number"
         name = input("Digite o seu nome completo\n")
-        oldYear = int(input("Digite o valor corresondente a sua idade\n"))
+        oldYear = int(input("Digite o valor corresondente a sua idade, \nInsira um número INTEIRO\n"))
 
         # Verifica se é menor de idade ou maior de idade
         if(oldYear > 0 and oldYear <= 17):
