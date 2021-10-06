@@ -1,10 +1,10 @@
 # Algorítmo...
 # Calculando qual é o maior número
-# O usuário informará um rimeiro númeo inteirioo qualquer
-# Logo após informará um segundo númeo inteirioo qualquer
-# Será realizado uma comparação, entre os dois valores inseridos
-# Será apresentado o resultado de qual dos números inseridos é maior
-# Objetivo é trabalhar estrutura condicional, [if, else if, else], além, do [while] que é uma estrutura de repetição
+# O usuário informará um primeiro númeo inteiro qualquer
+# Logo após informará um segundo númeo inteiro qualquer
+# Será realizado uma comparação, entre os dois valores inseridos pelo usuário
+# Será apresentado o resultado de qual dos números inseridos pelo usuário é maior
+# Objetivo é trabalhar estrutura condicional, [if, else if, else], além, do [while] que é uma estrutura contendo laço de repetição
 
 # Atribuindo o valor default
 option = "s"

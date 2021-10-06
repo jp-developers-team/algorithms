@@ -2,7 +2,7 @@
 # Calculando a idade de um usuário
 # O usuário informará o seu nome completo
 # O usuário informará ainda a sua idade, e logo apóe, será calculado a idade, para verificarmos se o usuário tem a maioridade ou não
-# Objetivo é calcular a idade de um determinado usuário, [if, else if e else], além, do [while] que é uma estrutura de repetição
+# Objetivo é calcular a idade de um determinado usuário, [if, else if e else], além, do [while] que é uma estrutura contendo laço de repetição
 
 # Atribuindo o valor default
 option = "s"

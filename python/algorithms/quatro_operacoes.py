@@ -6,7 +6,7 @@
 # Será realizado uma comparação, entre os dois valores inseridos, para sabermos qual é o maior
 # Evitando que o resultado seja um valor negativo, se for inverteremos os números de forma que não dê um resultado negativo
 # Será apresentado o resultado, com base no operador matemático escolhido => [+, -, * e /]
-# Objetivo é trabalhar estrutura condicional, [if, else if, else], além, do [while] que é uma estrutura de repetição
+# Objetivo é trabalhar estrutura condicional, [if, else if, else], além, do [while] que é uma estrutura contendo laço de repetição
 
 # Atribuindo o valor default
 option = "s"

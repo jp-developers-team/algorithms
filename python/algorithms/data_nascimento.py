@@ -1,8 +1,8 @@
 # Algorítmo...
-# Calculando a idade de um usuário
+# Calculando a idade do usuário
 # O usuário informará o seu nome completo
-# O usuário informará ainda a sua idade, e logo apóe, será calculado a idade, para verificarmos se o usuário tem a maioridade ou não
-# Objetivo é calcular a idade de um determinado usuário, [if, else if e else], além, do [while] que é uma estrutura de repetição
+# O usuário informará ainda a sua idade, e logo após, será calculado a idade, para verificarmos se o usuário tem a maioridade ou não
+# Objetivo é trabalhar a estrutura condicional, [if, else if e else], além, do [while] que é uma estrutura contendo laço de repetição
 
 # Importando biblioteca para trabalhar com datas
 from datetime import date
