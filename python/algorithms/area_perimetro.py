@@ -1,9 +1,32 @@
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
+# Atualizando meu código
 # Algorítmo...
 # Calculando o valor da área
 # Depois calculando o valor do perímetro
 # Será informado o valor do lado de um quadrado e logo após, será calculado o valor da área e o valor do perímetro
 # Objetivo é calcular uma expressão muito usada no dia a dia de muitos profissionais, [Lado, Área e Perímetro], além, do [while] que é uma estrutura contendo laço de repetição
-
 # Atribuindo o valor default
 option = "s"
 
