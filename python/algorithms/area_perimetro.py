@@ -1,27 +1,3 @@
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
-# Atualizando meu código
 # Algorítmo...
 # Calculando o valor da área
 # Depois calculando o valor do perímetro
