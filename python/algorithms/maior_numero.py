@@ -15,9 +15,9 @@ while (option == "s"):
     # Estrutura condicional, se o usuário escolher "SIM", vai ser dado o início do programa
     if (option == "s"):
 
-        # Tipando as variáveis para o tipo número inteiro
-        number1 = int(input("Digite um número qualquer, \nInsira um número INTEIRO\n"))
-        number2 = int(input("Digite outro número qualquer, \nInsira um número INTEIRO\n"))
+        # Tipando as variáveis para o tipo número decimal
+        number1 = float(str(input("Digite um número qualquer, \nInsira um número DECIMAL\n").replace(",", ".")))
+        number2 = float(str(input("Digite outro número qualquer, \nInsira um número DECIMAL\n").replace(",", ".")))
         
         # Verificamos se o primeiro número é maior do que o segundo número
         if (number1 > number2):
@@ -48,7 +48,7 @@ while (option == "s"):
 
 # Verifica se o usuário optou por sair, ao inserir um valor diferente de "s"
 if (option != "s"):
-
+    
     # Imprimindo na tela o resultado
     print('Você escolheu SAIR!\n')
 
