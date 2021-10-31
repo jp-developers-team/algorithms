@@ -190,6 +190,8 @@ btn0.place(x=10, y=325)
 btnEqual.place(x=10, y=380)
 
 # Resizing disabled
+# Width = disabled
+# Height = disabled
 screen.resizable(False, False)
 
 # Screen size
