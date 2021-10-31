@@ -19,10 +19,11 @@
 # Vídeos curtos e engraçados 18 => Pra testar o download
 # https://www.youtube.com/watch?v=hsZVlDQEwnI
 #
-from mhyt import yt_download
-from tkinter import *
-from tkinter import messagebox
 
+# Import native dependency "tkinter" and libraries of tertiary "mhyt" => "yt_download"
+from tkinter import *
+from mhyt import yt_download
+from tkinter import messagebox
 
 # Setting variable using library "tkinter"
 root = Tk()
@@ -30,33 +31,41 @@ root = Tk()
 # Main Class
 class main:
 
+    # Function to close screen_initial
     def logout(self):
         root.quit()
 
-    # Function to apply on clicked button "LIMPAR"
+    # Function to apply on clicked button "LIMPAR" search movies
     def clear_movie_search(self):
         self.url_movie_search.delete(0, END)
 
-    # Function to apply on clicked button "LIMPAR"
+    # Function to apply on clicked button "LIMPAR" search audios
     def clear_audio_search(self):
         self.url_audio_search.delete(0, END)
 
+    # Function to close screen ytd_movies
     def destroy_ytd_movies(self):
         self.ytd_movies.destroy()
 
-    # Function to apply on clicked button [start="INICIAR PROCESSO"]
+    # Function to apply on clicked button [start="INICIAR DOWNLOAD DO VÍDEO"]
     def start_movie_download(self):
+
+        # Configuration screen to top level
         self.ytd_movies = Toplevel()
         self.ytd_movies.attributes("-topmost", 0)
 
+        # Verify if "url_movie_search" is not empty or is TRUE
         if self.url_movie_search.get():
 
+            # Setting value to "label_information_movies"
             self.label_information_movies['text'] = "Processando, aguarde..."
 
+            # Setting default "mhyt"
             url = self.url_movie_search.get()
             file = url + '.mp4'
             yt_download(url, file)
 
+            # Message to proccess download information
             if yt_download:
                 self.label_information_movies['text'] = " "
                 messagebox.showinfo('Info!', 'Download concluído!')
@@ -65,22 +74,28 @@ class main:
         else:
             messagebox.showinfo('Info!', 'Insira a URL do vídeo para prosseguir. \n\nOu você inseriu uma URL inválida. \n\nTente novamente, Ex.: \n\nhttps://www.youtube.com/watch?v=0BVqFYParRs \n\ne pressione o botão "INICIAR DOWNLOAD"')
 
-        # Function to apply on clicked button [start="INICIAR PROCESSO"]
+        # Function to apply on clicked button [start="INICIAR DOWNLOAD DO ÁUDIO"]
     def start_audio_download(self):
+
+        # Configuration screen to top level
         self.ytd_audios = Toplevel()
         self.ytd_audios.attributes("-topmost", 0)
 
+        # Verify if "url_audio_search" is not empty or is TRUE
         if self.url_audio_search.get():
 
+            # Setting value to "label_information_audios"
             self.label_information_audios['text'] = "Processando, aguarde..."
 
             #file = url + '.mp3'
             #tmp_file = url + '.webm'
 
+            # Setting default "mhyt"
             url = self.url_audio_search.get()
             file = url + '.webm'
             yt_download(url, file, ismusic=True, codec="mp3")
 
+            # Message to proccess download information
             if yt_download:
                 self.label_information_audios['text'] = " "
                 messagebox.showinfo('Info!', 'Download concluído!')
@@ -89,10 +104,10 @@ class main:
         else:
             messagebox.showinfo('Info!', 'Insira a URL do vídeo para prosseguir. \n\nOu você inseriu uma URL inválida. \n\nTente novamente, Ex.: \n\nhttps://www.youtube.com/watch?v=0BVqFYParRs \n\ne pressione o botão "INICIAR DOWNLOAD"')
 
-    # The "screen_initial" defined to default screen
+    # The "screen_initial" defined to default primary screen
     def __init__(self, screen_initial):
 
-        # Title to screen
+        # Title to screen "screen_initial"
         screen_initial.title("jpdevelopersteam")
         screen_initial['bg'] = ('lightblue')
 
@@ -108,11 +123,11 @@ class main:
         self.label_spaccing = Label(screen_initial, text=" ", bg="lightblue")
         self.label_spaccing.pack()
 
-        # Button start
+        # Access button movies screen download
         self.btn_screen_ytd_movies_go = Button(screen_initial, text="BAIXAR VÍDEO", bg="lightgrey", width=47, height=6, fg="red", command=self.screen_ytd_movies)
         self.btn_screen_ytd_movies_go.pack()
 
-        # Button start
+        # Access button audios screen download
         self.btn_screen_ytd_audios_go = Button(screen_initial, text="BAIXAR MP3", bg="lightgrey", width=47, height=6, fg="red", command=self.screen_ytd_audios)
         self.btn_screen_ytd_audios_go.pack()
 
@@ -120,10 +135,7 @@ class main:
         self.label_spaccing = Label(screen_initial, text=" ", bg="lightblue")
         self.label_spaccing.pack()
 
-        # Button start
-        #self.btn_logout = Button(screen_initial, text="SAIR", bg="lightgrey", width=47, height=1, fg="red", command=self.logout)
-        #self.btn_logout.pack()
-
+    # The "screen_ytd_movies" defined to secondary screen
     def screen_ytd_movies(self):
 
         self.ytd_movies = Toplevel()
@@ -140,7 +152,7 @@ class main:
         self.label_title = Label(self.ytd_movies, text="YTD Vídeo Download", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
         self.label_title.pack()
 
-        # Informando o usuário como proceder
+        # Label to information
         self.label_show_information = Label(self.ytd_movies, text='Copie uma URL lá do "YOUTUBE" e cole no campo amarelo abaixo.', bg="lightblue")
         self.label_show_information.pack()
 
@@ -148,6 +160,7 @@ class main:
         self.label_spaccing = Label(self.ytd_movies, text=" ", bg="lightblue")
         self.label_spaccing.pack()
 
+        # search text to locate the movies
         self.url_movie_search = Entry(self.ytd_movies, bg="yellow", width="50")
         self.url_movie_search.pack()
         self.url_movie_search.focus_set()
@@ -164,7 +177,7 @@ class main:
         self.label_spaccing = Label(self.ytd_movies, text=" ", bg="lightblue")
         self.label_spaccing.pack()
 
-        # Button start
+        # Button download start
         self.btn_start = Button(self.ytd_movies, text="INICIAR DOWNLOAD DO VÍDEO", bg="lightgreen", width=47, height=2, fg="red", command=self.start_movie_download)
         self.btn_start.pack()
 
@@ -189,10 +202,12 @@ class main:
         # mainScreen.geometry("270x450+600+200")
         self.ytd_movies.geometry("600x500+430+170")
 
+        # Altered default screen to secondary screen
         self.ytd_movies.transient(root)
         self.ytd_movies.focus_force()
         self.ytd_movies.grab_set()
 
+    # The "screen_ytd_audios" defined to tertiary screen
     def screen_ytd_audios(self):
 
         self.ytd_audios = Toplevel()
@@ -217,6 +232,7 @@ class main:
         self.label_spaccing = Label(self.ytd_audios, text=" ", bg="lightblue")
         self.label_spaccing.pack()
 
+        # search text to locate the movies
         self.url_audio_search = Entry(self.ytd_audios, bg="yellow", width="50")
         self.url_audio_search.pack()
         self.url_audio_search.focus_set()
@@ -233,7 +249,7 @@ class main:
         self.label_spaccing = Label(self.ytd_audios, text=" ", bg="lightblue")
         self.label_spaccing.pack()
 
-        # Button start
+        # Button download start
         self.btn_start = Button(self.ytd_audios, text="INICIAR DOWNLOAD DO ÁUDIO", bg="lightgreen", width=47, height=2, fg="red", command=self.start_audio_download)
         self.btn_start.pack()
 
@@ -258,10 +274,12 @@ class main:
         # mainScreen.geometry("270x450+600+200")
         self.ytd_audios.geometry("600x500+430+170")
 
+        # Altered default screen to tertiary screen
         self.ytd_audios.transient(root)
         self.ytd_audios.focus_force()
         self.ytd_audios.grab_set()
 
+# Setting 
 main(root)
 
 # Resizing disabled
@@ -277,6 +295,7 @@ root.resizable(False, False)
 # mainScreen.geometry("270x450+600+200")
 root.geometry("600x500+430+170")
 
+# try root screen to setting top level
 root.withdraw()
 root.deiconify()
 
