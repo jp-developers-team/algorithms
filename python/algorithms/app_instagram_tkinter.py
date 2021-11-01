@@ -172,7 +172,7 @@ class main:
         self.label_spaccing.pack()
 
         # Label screen title
-        self.label_title = Label(screen_initial, text="Instagram Bot", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
+        self.label_title = Label(screen_initial, text="INSTAGRAM BOT", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
         self.label_title.pack()
 
         # Label spaccing
@@ -196,7 +196,7 @@ class main:
         self.label_spaccing.pack()
 
         # Button proccess cancel
-        self.btn_cancel = Button(screen_initial, text="CANCELAR", bg="lightgrey", width=16, height=2, fg="red", command=root.quit)
+        self.btn_cancel = Button(screen_initial, text="SAIR", bg="lightgrey", width=16, height=2, fg="red", command=root.quit)
         self.btn_cancel.place(x=230, y=608)
 
     # Form elements of "screen_like_by_tags"
@@ -362,8 +362,12 @@ class main:
         self.label_spaccing.pack()
 
         # Label my scripts
-        self.label_title = Label(self.screen_like_by_feeds, text="Curtir por Feeds", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
+        self.label_title = Label(self.screen_like_by_feeds, text="CURTIR POR FEEDS", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
         self.label_title.pack()
+
+        # Label to information
+        self.label_show_information = Label(self.screen_like_by_feeds, text='Logo logo, será implementado!!!', bg="lightblue")
+        self.label_show_information.pack()
 
         # Button back go
         self.btn_back = Button(self.screen_like_by_feeds, text="VOLTAR", bg="lightgrey", width=16, height=2, fg="red", command=self.destroy_like_by_feeds)
@@ -409,7 +413,7 @@ class main:
         self.label_spaccing.pack()
 
         # Label my scripts
-        self.label_title = Label(self.screen_like_by_locations, text="Curtir por Geolocalização", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
+        self.label_title = Label(self.screen_like_by_locations, text="CURTIR POR GEOLOCALIZAÇÃO", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
         self.label_title.pack()
 
         # Label to information
