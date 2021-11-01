@@ -180,7 +180,7 @@ class main:
         self.label_spaccing.pack()
 
         # Access button like by tags screen download
-        self.btn_screen_like_by_tags_go = Button(screen_initial, text="CURTIR POR TAGS", bg="lightgrey", width=47, height=6, fg="red", command=self.screen_like_by_tags)
+        self.btn_screen_like_by_tags_go = Button(screen_initial, text="CURTIR POR #TAGS", bg="lightgrey", width=47, height=6, fg="red", command=self.screen_like_by_tags)
         self.btn_screen_like_by_tags_go.pack()
 
         # Access button like by feeds screen download
@@ -209,8 +209,8 @@ class main:
         self.screen_like_by_tags['bg'] = ('lightblue')
 
         # Label Title
-        self.label_title = Label(self.screen_like_by_tags, text="CURTIR POR TAGS", bg="lightblue", width=40, height=1, font=("verdana", 16, "bold"))
-        self.label_title.place(x=10, y=68)
+        self.label_title = Label(self.screen_like_by_tags, text="CURTIR POR #TAGS", bg="lightblue", width=40, height=2, font=("verdana", 16, "bold"))
+        self.label_title.place(x=18, y=50)
 
         # Label Username
         self.label_username = Label(self.screen_like_by_tags, text="Usuário: ", bg="lightblue", width=10, height=1, font=("verdana", 10, "bold"))
