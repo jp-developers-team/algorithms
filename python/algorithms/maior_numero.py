@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# PYTHON 3 ONLY
+#
 # Algorítmo...
 # Calculando qual é o maior número
 # O usuário informará um primeiro númeo inteiro qualquer

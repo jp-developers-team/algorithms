@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# PYTHON 3 ONLY
+#
 # Algorítmo...
 # Calculando a média de notas de 5 provas de 5 alunos diferentes
 # O usuário/professor informará a nota da primeira prova

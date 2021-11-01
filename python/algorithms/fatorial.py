@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# PYTHON 3 ONLY
+#
 # Algorítmo...
 # Calculando o fatorial de um valor fornecido pelo usuário
 # Será informado o valor fatorial

@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# PYTHON 3 ONLY
+#
 # Algorítmo...
 # Ordem decrescente
 # O programa exibirá na tela uma ordem específica, de 100 até 0, ou seja descendentemente/regressivamente/descrescente

@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# PYTHON 3 ONLY
+#
 # Algorítmo...
 # Calculando o valor da área
 # Depois calculando o valor do perímetro

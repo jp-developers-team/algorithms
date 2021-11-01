@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# PYTHON 3 ONLY
+#
 # Algorítmo...
 # Calculando as quatros operações, ou seja, ADIÇÃO, SUBTRAÇÃO, MULTIPLICAÇÃO e DIVISÃO
 # O usuário informará um primeiro númeo inteirioo qualquer
