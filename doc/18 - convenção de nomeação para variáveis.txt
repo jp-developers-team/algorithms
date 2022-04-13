@@ -1,0 +1,21 @@
+# CONVENÇÕES DE NOMEAÇÃO
+
+    🟩 camelCase
+        ➡️ As regras são que capitalizemos todas as palavras depois da primeira.
+            ➡️ nameVariable
+            ➡️ descriptionVariable  
+
+    🟩 PascalCase
+        ➡️ Aqui precisamos capitalizar todas as palavras, incluindo a primeira.
+            ➡️ NameVariable
+            ➡️ DescriptionVariable
+
+    🟩 kebab-case
+        ➡️ Para este, adicionamos um traço entre cada palavra e todas elas são minúsculas.
+            ➡️ name-variable
+            ➡️ description-variable
+
+    🟩 snake_case
+        ➡️ Em contraste com o caso do kebab, para o caso da cobra adicionamos um sublinhado em vez disso.
+            ➡️ name_variable
+            ➡️ description_variable
