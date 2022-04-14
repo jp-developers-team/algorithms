@@ -2,7 +2,8 @@
 
 #include<stdlib.h>
 
-int * alocar(){
+// Recuperando valores da ponteiro/memória "*", "*alocar" ou "num*" ou "*num"
+int *alocar(){
     int *memoria = (int*) malloc(sizeof(int));
 
     return memoria;

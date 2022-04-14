@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// Cálculo de IMC => Índice de Massa Corporal
 float calcImc(){
     float peso, altura, imc;
 

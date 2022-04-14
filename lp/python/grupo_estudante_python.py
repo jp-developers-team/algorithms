@@ -42,6 +42,11 @@ while (r == "S"):
         
     media = str(round(idade/contador, 2))
     
-    print('\nTotal de homens: {}, \nTotal de mulheres: {}, \nO nome da pessoa mais velha é: {}, \nO nome da pessoa mais jovem é: {}, \nMédia de idade do grupo: {}, \nQuantidade de homens com mais de 30 anos {}, \nQuantidade de mulheres com menos de 18 anos {}'.format(homem, mulher, nome_mais_velha, nome_mais_jovem, media, home_mais_que_trinta, mulher_menos_de_dezoito))
-        
-    r = input("Deseja continuar? \nPressione [s] para SIM Ou Pressione [n] para NÃO\n").upper()
+    #Exibindo o resultado à cada repetição do "While"
+    print('\nResultado pós repetição,\nTotal de homens: {}, \nTotal de mulheres: {}, \nO nome da pessoa mais velha é: {}, \nO nome da pessoa mais jovem é: {}, \nMédia de idade do grupo: {}, \nQuantidade de homens com mais de 30 anos {}, \nQuantidade de mulheres com menos de 18 anos {}'.format(homem, mulher, nome_mais_velha, nome_mais_jovem, media, home_mais_que_trinta, mulher_menos_de_dezoito))
+
+    #Exibindo o resultado ou solicita o encerramento ao pressionar "n"
+    r = input("Deseja continuar? \nPressione [s] para SIM Ou Pressione [n] para encerrar e exibir o resultado\n").upper()
+    
+#Exibindo o resultado ao pressionar "n" para encerrar
+print('\nResultado pós encerramento, \nTotal de homens: {}, \nTotal de mulheres: {}, \nO nome da pessoa mais velha é: {}, \nO nome da pessoa mais jovem é: {}, \nMédia de idade do grupo: {}, \nQuantidade de homens com mais de 30 anos {}, \nQuantidade de mulheres com menos de 18 anos {}'.format(homem, mulher, nome_mais_velha, nome_mais_jovem, media, home_mais_que_trinta, mulher_menos_de_dezoito))
