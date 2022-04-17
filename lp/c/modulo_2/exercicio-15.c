@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-// Trabalhando com funções, com passagem de parâmetros do tipo vetor[], calculando a média e a mediana
+// Tutorial youtube => https://www.youtube.com/watch?v=UWqNbn8KE9M
+// Trabalhando com funções, com passagem de parâmetros do tipo vetor[], ordenando os números, calculando a média, mediana e a moda
 int main(){
     int v[1000], v2[1000], i, n, j, moda = 0, media = 0, mediana = 0, x, m = 0, md = 0, chave = 0, maior;
 
@@ -22,17 +23,18 @@ int main(){
 
         for(int i = 0; i < n; i++){
             if(v[i] < v[i -1]){
-                int aux = 0;
+                int aux = v[i];
 
                 v[i] = v[i - 1];
                 v[i - 1] = aux;
 
                 ordenado = 0;
+                printf("\n Ordenação = %d", v[i]);
             }
         }
     }
 
-    // Media => somar todos os valores e dividir pelo quantidade total de números encontrados
+    // Media => somar todos os valores e dividir pelo quantidade total de números informado pelo usuário
     for(int i = 0; i < n; i++){
         m = m + v[i];
     }
@@ -41,7 +43,7 @@ int main(){
 
     printf("\n Media = %d", media);
 
-    // Mediana => encontrara os dois valores centrais, somá-los e dividir o produto popr 2
+    // Mediana => encontrar os dois valores centrais, somá-los e dividir por 2
     if(n % 2 == 0){ //Número é par
         md = (n / 2);
         mediana = (v[md] + v[md -1] / 2);
@@ -52,7 +54,7 @@ int main(){
 
     printf("\n Mediana = %d", mediana);
 
-    //Moda => valor que mais se repete na sequência de números encontrados
+    //Moda => valor que mais se repete na sequência de números informados pelo usuário
     for(int i = 0; i < n; i++){
         v2[i] = 0;
     }
