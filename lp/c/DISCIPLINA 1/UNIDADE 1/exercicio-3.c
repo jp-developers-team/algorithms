@@ -1,5 +1,5 @@
 /*
-* Instituto:      Ampli Universidade
+* Instituto:      Ampli Universidade - Pitágoras Universidade
 * Url:            https://ava.ampli.com.br/bacharelado/disciplina/algoritmos-e-programacao-es-5d87d
 * Disciplina:     Algoritmos e Programação Estruturada - Algoritmos para Dev
 * Módulo:         UNIDADE 1 - Conceitos de algoritmos e programação

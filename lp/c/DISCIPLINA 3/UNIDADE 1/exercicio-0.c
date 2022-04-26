@@ -1,5 +1,5 @@
 /*
-* Instituto:      Ampli Universidade
+* Instituto:      Ampli Universidade - Pitágoras Universidade
 * Url:            https://ava.ampli.com.br/bacharelado/disciplina/logica-computacional-3926f
 * Disciplina:     Lógica Computacional
 * Módulo:         UNIDADE 1 - Princípios fundamentais da matemática e da lógica

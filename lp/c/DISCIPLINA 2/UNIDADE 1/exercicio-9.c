@@ -1,5 +1,5 @@
 /*
-* Instituto:      Ampli Universidade
+* Instituto:      Ampli Universidade - Pitágoras Universidade
 * Url:            https://ava.ampli.com.br/bacharelado/disciplina/algoritmos-e-programacao-es-797fb
 * Disciplina:     Algoritmos e Programação Estruturada - Programação Estruturada para Dev
 * Módulo:         UNIDADE 1 - Procedimentos e funções
