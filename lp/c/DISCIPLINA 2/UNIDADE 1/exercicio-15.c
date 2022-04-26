@@ -1,7 +1,18 @@
+/*
+* Instituto:      Ampli Universidade
+* Url:            https://ava.ampli.com.br/bacharelado/disciplina/algoritmos-e-programacao-es-797fb
+* Disciplina:     Algoritmos e Programação Estruturada - Programação Estruturada para Dev
+* Módulo:         UNIDADE 1 - Procedimentos e funções
+* Aulas:          [O que são funções ou procedimentos?], [Escopo e passagem de parâmetros] e [Recursividade]
+* Período estudo: 11/04/2022 - 24/04/2022
+* Período prova:  25/04/2022 - 23/07/2022
+* Aluno:          Helington Jose Procopio
+* Aula reforço:   Tutorial youtube => https://www.youtube.com/watch?v=UWqNbn8KE9M
+* Descrição:      Trabalhando com funções, com passagem de parâmetros do tipo vetor[], ordenando os números, calculando a média, mediana e a moda
+*/
+
 #include<stdio.h>
 
-// Tutorial youtube => https://www.youtube.com/watch?v=UWqNbn8KE9M
-// Trabalhando com funções, com passagem de parâmetros do tipo vetor[], ordenando os números, calculando a média, mediana e a moda
 int main(){
     int v[1000], v2[1000], i, n, j, moda = 0, media = 0, mediana = 0, x, m = 0, md = 0, chave = 0, maior;
 

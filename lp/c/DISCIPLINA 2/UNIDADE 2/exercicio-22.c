@@ -1,12 +1,23 @@
+/*
+* Instituto:      Ampli Universidade
+* Url:            https://ava.ampli.com.br/bacharelado/disciplina/algoritmos-e-programacao-es-797fb
+* Disciplina:     Algoritmos e Programação Estruturada - Programação Estruturada para Dev
+* Módulo:         UNIDADE 2 - Listas
+* Aulas:          [O que são as Estruturas de Dados do tipo Lista?], [Pilhas] e [Filas]
+* Período estudo: 11/04/2022 - 24/04/2022
+* Período prova:  25/04/2022 - 23/07/2022
+* Aluno:          Helington Jose Procopio
+* Descrição:      Entendendo o conceito de Listas simplesmente ligada, no caso aqui estamos criando uma lista vazia mesmo
+*/
+
 #include<stdlib.h>
 #include<stdio.h>
 #include<stdbool.h>
 #include<assert.h>
 
-// Entendendo o conceito de Lista simplesmente ligada, no caso aqui estamos criando apenas aprendendo a criar uma lista vazia mesmo
 struct No {
-    int info;
     struct No* proximo;
+    int info;
 };
 
 struct Lista {
@@ -29,8 +40,10 @@ bool vazia(struct Lista* li) {
 
     if (li->inicio == NULL) {
         return true;
+        printf("\n SIM, a lista está vazia! \n");
     } else {
         return false;
+        printf("\n NÃO, a lista não está vazia! \n");
     }
 }
 

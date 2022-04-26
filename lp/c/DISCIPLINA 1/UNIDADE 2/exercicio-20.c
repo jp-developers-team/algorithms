@@ -1,8 +1,19 @@
+/*
+* Instituto:      Ampli Universidade
+* Url:            https://ava.ampli.com.br/bacharelado/disciplina/algoritmos-e-programacao-es-5d87d
+* Disciplina:     Algoritmos e Programação Estruturada - Algoritmos para Dev
+* Módulo:         UNIDADE 2 - Estruturas de decisão condicionais
+* Aulas:          [Tomada de decisões], [Estruturas de repetição determinísticas] e [Operações e expressões]
+* Período estudo: 28/03/2022 - 10/04/2022
+* Período prova:  11/04/2022 - 09/07/2022
+* Aluno:          Helington Jose Procopio
+* Descrição:      Procurando um NÚMERO QUALQUER dentro de um "VETOR" específico
+*/
+
 #include<stdio.h>
 
 #define VET_TAM 5
 
-// Procurando um NÚMERO QUALQUER dentro de um "VETOR" específico
 int main(){
     int vetor[VET_TAM];
     int num, i = 0, achou = 0;
